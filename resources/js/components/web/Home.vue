@@ -48,7 +48,7 @@
     </nav>
     <div class="top-sticky">
         <nav class="navbar navbar-light bg-light" style="box-shadow: 0px -1px 0px white;">
-            <div class="container-fluid">
+            <div class="container-fluid d-flex justify-content-end">
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Rechecher" aria-label="Search">
                     <button class="btn btn-primary" type="submit">Rechercher</button>

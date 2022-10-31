@@ -10,6 +10,19 @@ html, body {
     color: white;
 }
 
+.data-info{
+    background: linear-gradient(88deg, #2125291a, #2125290f);
+    padding: 2em;
+}
+
 .nav-link.btn.btn-transparent:focus{
     box-shadow: none;
+}
+.dropdown-menu{
+    z-index: 3000;
+}
+.top-sticky{
+    position: sticky;
+    top: 0;
+    z-index: 2040;
 }

@@ -43,7 +43,7 @@
                         </section>
                     </div>
                     <div class="col-lg-7 p-0">
-                        <section style="border-bottom-right-radius:75px" class="bg-light p-3 h-100">
+                        <section style="border-bottom-right-radius:75px;box-shadow: 2px 0px 1px #2125293d;" class="bg-light p-3 h-100">
                             <div class="d-flex justify-content-between">
                                 <h3>{{offre.title}}</h3>
                                 <i class="fa-solid fa-ellipsis-vertical"></i>

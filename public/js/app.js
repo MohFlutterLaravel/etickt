@@ -20011,7 +20011,8 @@ var _hoisted_18 = {
 };
 var _hoisted_19 = {
   style: {
-    "border-bottom-right-radius": "75px"
+    "border-bottom-right-radius": "75px",
+    "box-shadow": "2px 0px 1px #2125293d"
   },
   "class": "bg-light p-3 h-100"
 };
@@ -20239,7 +20240,7 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
   "class": "fa-solid fa-right-to-bracket me-2"
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Connexion")])])])])])])], -1 /* HOISTED */);
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"top-sticky\"><nav class=\"navbar navbar-light bg-light\" style=\"box-shadow:0px -1px 0px white;\"><div class=\"container-fluid\"><form class=\"d-flex\"><input class=\"form-control me-2\" type=\"search\" placeholder=\"Rechecher\" aria-label=\"Search\"><button class=\"btn btn-primary\" type=\"submit\">Rechercher</button></form></div></nav></div>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"top-sticky\"><nav class=\"navbar navbar-light bg-light\" style=\"box-shadow:0px -1px 0px white;\"><div class=\"container-fluid d-flex justify-content-end\"><form class=\"d-flex\"><input class=\"form-control me-2\" type=\"search\" placeholder=\"Rechecher\" aria-label=\"Search\"><button class=\"btn btn-primary\" type=\"submit\">Rechercher</button></form></div></nav></div>", 1);
 var _hoisted_3 = {
   "class": "container"
 };
