@@ -6,8 +6,8 @@
         <div class="p-4 text-center" v-if="!offres.length">
             <lottie-animation
                 path="lotties/coffe.json"
-                :width="256"
-                :height="256"
+                :width="150"
+                :height="150"
                 />
             <p class="text-muted">Aucun information ..</p>
         </div>
@@ -43,10 +43,12 @@
                         </section>
                     </div>
                     <div class="col-lg-7 p-0">
-                        <section style="border-bottom-right-radius:75px;box-shadow: 2px 0px 1px #2125293d;" class="bg-light p-3 h-100">
+                        <section style="border-bottom-right-radius:75px" class="bg-light p-3 h-100">
                             <div class="d-flex justify-content-between">
                                 <h3>{{offre.title}}</h3>
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                <div style="margin-left: 1.5rem;">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
                             </div>
                             <p class="text-muted">{{offre.address}}</p>
                             <p>{{offre.description}}</p>

@@ -4,11 +4,10 @@
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle btn-transparent" type="button" id="dropdownMenuButton1"
                 data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-filter" style="font-size: 1.2em;"></i>
-                {{filterText}}
+                <i class="fa-solid fa-filter" id="filter" style="font-size: 1.2em;" ></i>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li @click="data = {'id': 0, 'category_name': 'Tout'}; this.filterText = 'Tout les categories'"><a class="dropdown-item" href="#">Tout les categories</a></li>
+                <li @click="data = {'id': 0, 'category_name': 'Tout'}; this.filterText = ''"><a class="dropdown-item" href="#">Tout les categories</a></li>
                 <li @click="data = category; this.filterText = category.category_name" v-for="category in categories"><a class="dropdown-item" href="#">{{category.category_name}}</a></li>
             </ul>
         </div>
@@ -31,6 +30,15 @@ import Card from '../ui/Card.vue'
                 },
                 filterText: '',
                 categories: [],
+            }
+        },
+        watch: { 
+            filterText: function() { 
+                if (this.filterText != '') {
+                    document.getElementById("filter").style = "color: #ff8787 !important;";
+                }else{
+                    document.getElementById("filter").style = "color: none !important;";
+                } 
             }
         },
         created(){

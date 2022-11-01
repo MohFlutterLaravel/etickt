@@ -9,9 +9,14 @@ html, body {
 .nav-link.btn.btn-transparent:hover{
     color: white;
 }
+@media only screen and (max-width: 992px){
+    .social-media div.m-2{
+        display: inline;
+    }
+}
 
 .data-info{
-    background: linear-gradient(88deg, #2125291a, #2125290f);
+    background: linear-gradient(88deg, #2125291a, #2125290f) !important;
     padding: 2em;
 }
 

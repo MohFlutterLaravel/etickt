@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
         <div class="container-fluid ">
 
             <a class="navbar-brand " style="font-size: 35px;">
