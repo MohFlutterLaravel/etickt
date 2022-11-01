@@ -31,3 +31,50 @@ html, body {
     top: 0;
     z-index: 2040;
 }
+
+.text-orange{
+    color: #FF8220 !important;
+}
+
+.bg-orange{
+    background-color: #FF8220 !important;
+}
+
+/** Start etp/auth **/
+.overlay {
+    width: 100%;
+    height: 500px;
+    background: #21252957;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 25px;
+    justify-content: space-around !important;
+    display: flex !important;
+}
+.overlay div{
+    width: 35%;
+    background: #e8e8e8;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.switch{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100% !important;
+    background: #cdcdcd !important;
+    padding: 4px !important;
+}
+.switch span{
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.switch span.active{
+    background-color: #FF8220;
+    color: white;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/** End etp/auth **/

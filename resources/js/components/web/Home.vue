@@ -29,10 +29,10 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-link btn btn-transparent m-2 p-2">
-                                <i class="fa-solid fa-certificate me-2" style="color: #fbca19"></i>
-                                Abonnement
-                        </button>
+                        <router-link :to="{name:'etp-auth'}" class="nav-link btn btn-transparent m-2 p-2">
+                            <i class="fa-solid fa-certificate me-2" style="color: #fbca19"></i>
+                            Abonnement
+                        </router-link>
                     </li>
                     <li class="nav-item">
                         <button class="nav-link btn btn-primary m-2 p-2" style="color: white; font-weight: bold;"
